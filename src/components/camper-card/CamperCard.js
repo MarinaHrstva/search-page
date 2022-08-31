@@ -1,4 +1,5 @@
 
+import './CamperCard.css'
 
 const CamperCard = ({
     camper,
@@ -6,7 +7,6 @@ const CamperCard = ({
 }) => {
 
     const imageUrl=included.find(x=>x.id===camper.relationships.primary_image.data.id)
-    console.log(imageUrl.attributes.url);
    
     return (<div className="card-wrapper">
         <div className="img-container">

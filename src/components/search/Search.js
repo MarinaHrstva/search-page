@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import { get } from "../../api/api";
 import CamperCard from "../camper-card/CamperCard";
 
+import './Search.css'
+
 const Search = () => {
 
     const [allResults, setAllResults] = useState({});
